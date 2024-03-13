@@ -1,16 +1,11 @@
 # web_query_params
 
-A new Flutter project.
+## Projeto de Exemplo: Query Params no Flutter Web
+Objetivo:
+Criar um aplicativo Flutter Web que recebe parâmetros da URL (Query Params) e exibe esses parâmetros na tela.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - Funcionalidades
+O aplicativo terá uma página que exibirá os parâmetros recebidos na URL.
+Os parâmetros serão passados via Query Params, como por exemplo: http://localhost:52695/?origin=pointA&destiny=pointB.
+Os parâmetros origin e destiny serão extraídos da URL e exibidos na tela.
+O caractere # será removido da URI para que a URL fique mais limpa.
